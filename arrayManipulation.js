@@ -1,4 +1,3 @@
-const {createUserProfiles} = require("./userInfo")
 //Task 1
 // Function to process the array of numbers
 function processArray(numbers){
