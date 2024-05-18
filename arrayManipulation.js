@@ -1,3 +1,4 @@
+const {createUserProfiles} = require("./userInfo")
 //Task 1
 // Function to process the array of numbers
 function processArray(numbers){
@@ -33,5 +34,15 @@ function formatArrayStrings(strings, processedNumbers){
     });
 }
 
+
 let name = ["Carl", "Pheal", "Rema", "Mimi"]
-console.log(formatArrayStrings(name, processedAge))
+let modifiedNames = formatArrayStrings(name, processedAge)
+console.log(modifiedNames)
+
+
+console.log(createUserProfiles(name, modifiedNames))
+
+module.exports = {
+    processArray,
+    formatArrayStrings
+};
