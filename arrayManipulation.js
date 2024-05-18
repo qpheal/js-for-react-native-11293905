@@ -10,15 +10,9 @@ function processArray(numbers){
 })
 }
 
-let age = [3,2,4,1]
-let processedAge = processArray(age)
-console.log(processedAge)
-//[ 9, 4, 16, 3 ]
-
 
 // Task 2
 function formatArrayStrings(strings, processedNumbers){
-    console.log(processedNumbers)
     if (strings.length !== processedNumbers.length) {
         throw new Error("Both arrays must have the same length.");
     }
@@ -35,19 +29,7 @@ function formatArrayStrings(strings, processedNumbers){
 }
 
 
-let name = ["Carl", "Pheal", "Rema", "Mimi"]
-let modifiedNames = formatArrayStrings(name, processedAge)
-console.log(modifiedNames)
 
-
-console.log(createUserProfiles(name, modifiedNames))
-/*[
-    { originalName: 'Carl', modifiedName: 'carl', id: 1 },
-    { originalName: 'Pheal', modifiedName: 'PHEAL', id: 2 },
-    { originalName: 'Rema', modifiedName: 'REMA', id: 3 },
-    { originalName: 'Mimi', modifiedName: 'mimi', id: 4 }
-  ]
-*/
 module.exports = {
     processArray,
     formatArrayStrings
