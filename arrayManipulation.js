@@ -8,4 +8,6 @@ function processArray(numbers){
 }
 
 let age = [3,2,4,1]
-console.log(processArray(age))
+let processedAge = processArray(age)
+console.log(processedAge)
+//[ 9, 4, 16, 3 ]
