@@ -41,7 +41,13 @@ console.log(modifiedNames)
 
 
 console.log(createUserProfiles(name, modifiedNames))
-
+/*[
+    { originalName: 'Carl', modifiedName: 'carl', id: 1 },
+    { originalName: 'Pheal', modifiedName: 'PHEAL', id: 2 },
+    { originalName: 'Rema', modifiedName: 'REMA', id: 3 },
+    { originalName: 'Mimi', modifiedName: 'mimi', id: 4 }
+  ]
+*/
 module.exports = {
     processArray,
     formatArrayStrings
